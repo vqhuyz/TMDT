@@ -189,7 +189,7 @@ namespace MultiShop.Controllers
             Amount amnt = new Amount();
             amnt.currency = "USD";
             // Total = shipping tax + subtotal.
-            amnt.total = "7";
+            amnt.total = "142";
             amnt.details = details;
 
             // Now make a transaction object and assign the Amount object
