@@ -181,9 +181,9 @@ namespace MultiShop.Controllers
 
             // Specify details of your payment amount.
             Details details = new Details();
-            details.shipping = "1";
-            details.subtotal = "5";
-            details.tax = "1";
+            details.shipping = "130";
+            details.subtotal = "10";
+            details.tax = "2";
 
             // Specify your total payment amount and assign the details object
             Amount amnt = new Amount();
